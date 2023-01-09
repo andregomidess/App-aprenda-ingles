@@ -8,7 +8,7 @@
     tools:context=".fragments.NumerosFragment">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/buttonCachorro"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="24dp"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/buttonGato"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="24dp"
@@ -26,40 +26,40 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/buttonLeao"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="24dp"
         android:src="@drawable/leao"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCachorro" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/buttonMacaco"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="24dp"
         android:src="@drawable/macaco"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonGato" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/buttonOvelha"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="24dp"
         android:src="@drawable/ovelha"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLeao" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/buttonVaca"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="24dp"
         android:src="@drawable/vaca"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonMacaco" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
